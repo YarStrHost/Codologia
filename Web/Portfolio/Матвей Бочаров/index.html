@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>портфолио</title>
+	<link rel="stylesheet" type="text/css" href="STYLE.CSS">
+	<link rel="icon" type="image/png" href="images/case.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<body>
+			<div class="main-info">
+				<img class="avatar"src="images/avatar.jpg">
+				<h1 class="nickname">Бочаров Матвей</h1>
+				<p class="joke">в узбекистане хотели сделать вакцину от короны,а получился плов:) </p>
+			</div>
+
+		<div class="description">
+			<img class="icon" src="images/info.svg">
+			<h2 class="about-me">кто я?</h2>
+			<p class="about-me-text">начинающий веб-программист.11лет.<br>
+влажею навыками написание сайтов на html и css.<br> имею опыт в scratch,pencil code и др.
+хорошо учюсь и люблю игры.
+у меня есть много хороших друзей и самый лучший племмяник ДАНЯ.</p>
+		</div>
+
+		<div class="description">
+			<img class="icon" src="images/star.svg">
+			<h2 class="about-me">мои достижения</h2>
+			<p class="about-me-text">1)прошел террарию<br>
+2)прошел маинкрафт<br>
+3)прожил 70 дней в икее в роблоксе<br>
+4)смог пройти 6 раундов без смертей в marble strike<br>
+5)получил 9 пятерок за день<br>
+</p>
+		</div>
+		<div class="interests">
+			<div class="game">
+				<img class="game-img" src="images/terraria.jpg">
+				<p class="game-text">terraria</p>
+			    <p id="info" class="game-text normal-font">terraria-трать нервы и ничего не пойми</p>
+		    </div>
+
+			<div class="game">
+				<img class="game-img" src="images/minecraft.jpg">
+				<p class="game-text">minecraft</p>
+			    <p id="info" class="game-text">minecraft-ой мама пришла</p>
+		    </div>
+
+			<div class="game">
+				<img class="game-img" src="images/hytale.jpg">
+				<p class="game-text">hytale</p>
+				<p id="info" class="game-text normal-font">hytale-можно кидаться не только снегом</p>
+			</div>
+
+			
+			<div class="game">
+				<img class="game-img" src="images/roblox.jpg">
+				<p class="game-text">roblox</p>
+				<p id="roblox" class="game-text normal-font">roblox-все на ваш вкус</p>
+			</div>
+
+			<div class="game">
+				<img class="game-img" src="images/geometry dash.jpg">
+				<p class="game-text">geometry dash</p>
+                <p id="geometry dash" class="game-text normal-font">geometry dash-сломай клавиатуру и экран</p>
+			</div>
+
+
+		    <div class="game">
+		    	<img class="game-img" src="images/pubg.jpg">
+		    	<p class="game-text">pubg</p>
+		    	<p id="pubg" class="game-text normal-font">pubg-стрелялка</p>
+		    </div>
+
+			<div class="game">
+				<img class="game-img" src="images/standoff 2.jpg">
+				<p class="game-text">standoff 2</p>
+				<p id="standoff 2" class="game-text normal-font">standoff 2-стрелялка</p>
+			</div>
+
+			
+			<div class="game">
+				<img class="game-img" src="images/crossout.jpg">
+				<p class="game-text">crossout</p>
+				<p id= "crossout "class="game-text normal-font">crossout-машинки</p>
+			</div>
+
+			<div class="game">
+				<img class="game-img" src="images/brawl stars.jpg">
+				<p class="game-text">brawl stars</p>
+				<p id="brawl"class="game-text normal-font">brawl stars-буууууууум</p>
+			</div>
+		</div>
+
+		<div class="slider">
+			<button onclick="changeDisplay()"class="interesting-text">интересное</button>
+			<div id="box" style="display: none;" class="interesting-img"> 
+		</div>
+	
+</div>
+</body>
+<script type="text/javascript">
+	function changeDisplay()  {
+		 box = document.getElementById("box")
+    if (box.style.display === "none") 
+    	box.style.display = "block";
+    
+    else 
+    	box.style.display = "none";
+
+	}
+
+	
+</script>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Портфолио</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="img/png" href="images/портфолио.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 		
+	<div class="main-info">
+		<img class="avatar" src="images/аватарка.jpg">
+		<h1 class="nickname">Матвей Чурин</h1>
+	    <p class="contacts" >...</p>
+	</div>
+
+	<div class="description">
+		<img class="icon" src="images/info.svg">
+		<h2 class="about-me">О себе</h2>
+		<p class="about-me-text">Мне 12 лет, все.  </p>
+	</div>
+
+	<div class="description">
+		<img class="icon" src="images/star.svg">
+		<h2 class="about-me">Мои достижения</h2>
+		<p class="about-me-text">1.Я написал этот сайт<br>2.Я пришел на этот урок <br>3.Я показал этот сайт</p>
+	</div>
+
+	<div class= "interests">
+
+		<div class="game">
+			<img class="game-img" src="images/minecraft.jpg">
+			<p class="game-text">Minecraft</p>
+			<p id="info"class="game-text normal-font">Игра про кубики</p>
+		</div>
+
+		<div class="game">
+			<img class="game-img" src="images/nnnn.jpg">
+			<p class="game-text">Программирование</p>
+			<p id="info"class="game-text normal-font"> </p>
+		</div>
+
+		<div class="game">
+			<img class="game-img" src="images/dct.jpg">
+			<p class="game-text">Английский язык</p>
+			<p id="info"class="game-text normal-font">Язык западной группы </p>
+		</div>
+
+		<div class="game">
+			<img class="game-img" src="images/vl.jpg">
+			<p class="game-text"> Вело-спорт</p>
+			<p id="info"class="game-text normal-font"> Просто вид спорта  </p>
+		</div>
+	</div>
+
+
+	<div class="slider">
+	   <button onclick="changeDisplay()" class="interesting-button">Интересное</button>
+	   <div id="box" class="interesting-img"></div>
+	</div>
+
+
+</body>
+<script>
+ 	function changeDisplay() {
+ 	    box = document.getElementById("box");
+ 	    if (box.style.display === "none")
+ 	    	box.style.display = "block"
+        else 
+        	box.style.display = "none"
+    }
+
+ 
+ </script>
+
+</html>
