@@ -126,7 +126,7 @@ body {
 .interesting-img{
 	width: 50vw;
 	height: 30vw;
-	background-image: url('images/рекламa.jpg');
+	background-image: url('рекламa.jpg');
 	background-size: cover;
 	border-radius: 30px;
 	margin-top: 20px;
@@ -137,16 +137,16 @@ body {
 
 @keyframes slide {
 	25%{
-		background-image: url('images/д.jpg');
+		background-image: url('д.jpg');
 	}
 	50%{
-		background-image: url('images/п.jpg');
+		background-image: url('п.jpg');
 	}
     75%{
-		background-image: url('images/и.webp');
+		background-image: url('и.webp');
 	}
 	100%{
-		background-image: url('images/рекламa.jpg');
+		background-image: url('рекламa.jpg');
 	}
 }
 
