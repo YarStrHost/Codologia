@@ -122,7 +122,7 @@ body {
 .interesting-img {
     width: 550px;
     height: 350px;
-    background: url('Web/Portfolio/Артём/images/ad1.jpg');
+    background: url('images/ad1.jpg');
     background-size: cover;
     border-radius: 30px;
     margin-top: 20px;
@@ -132,16 +132,16 @@ body {
 
 @keyframes slide {
     25% {
-        background-image: url('Web/Portfolio/Артём/images/ad1.jpg')
+        background-image: url('images/ad1.jpg')
     }
     50% {
-        background-image: url('Web/Portfolio/Артём/images/ad2.jfif')
+        background-image: url('images/ad2.jfif')
     }
     75% {
-        background-image: url('Web/Portfolio/Артём/images/ad3.jfif')
+        background-image: url('images/ad3.jfif')
     }
     100% {
-        background-image: url('Web/Portfolio/Артём/images/ad4.gif')
+        background-image: url('images/ad4.gif')
     }
 }
 
