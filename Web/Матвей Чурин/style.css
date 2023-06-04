@@ -134,7 +134,7 @@ font-size: 2vw;
 .interesting-img{
 	width: 550px;
 	height: 250px;
-	background-image: url("ad.jpg");
+	background-image: url("images/ad.jpg");
 	border-radius: 20px;
 	background-size: cover;
 	margin-top: 20px;
