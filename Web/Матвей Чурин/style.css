@@ -144,16 +144,16 @@ font-size: 2vw;
 
 @keyframes slide {
 	25% {
-		background-image: url("ad1.jpg")
+		background-image: url("images/ad1.jpg")
 	}
 	50% {
-		background-image: url("ad2.jpg")
+		background-image: url("images/ad2.jpg")
 	}
 	75% {
-		background-image: url("ad3.jpg")
+		background-image: url("images/ad3.jpg")
 	}
 	100% {
-		background-image: url("ad.jpg")
+		background-image: url("images/ad.jpg")
 	}
 
 
