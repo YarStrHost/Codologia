@@ -1,0 +1,206 @@
+*{
+margin: 0;
+padding:0;
+}
+
+
+.avatar{
+height: 12vw;
+wight: 12vw;
+border-radius:100%;
+border:solid 8px white;
+margin-top:-6vw;
+min-height:150px;
+min-width:150px;  
+}
+
+
+
+.main-info{
+background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+width: 36vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius:30px;
+margin-top:150px;
+min-width: 300px;
+}
+
+.nickname{
+color: white;
+margin-top: 10px;
+font-family:verdana; 
+margin-bottom:16px;
+font-size: 100%; 
+}
+
+
+.joke{
+color: white;
+margin-bottom:16px;
+margin-left:8px;  	
+}
+
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 100px;
+}
+
+.description{
+background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+width:36vw;
+border-radius:30px;
+margin-top:20px;
+color: white;
+font-family: verdana;
+min-width: 300px;
+}
+
+
+.icon{
+margin-top:20px; 
+margin-left:20px;
+position: absolute;
+}
+
+
+
+
+.about-me{
+margin-top:18px; 
+margin-left:54px;
+}
+
+.about-me-text{
+margin-left:54px;
+margin-bottom:16px;
+width: 80%; 	
+}
+
+
+.game-img{
+height:150px; 
+width:150px;
+border-radius:30px;
+object-fit:cover;
+margin-top: -20px;
+border:6px solid white;  
+}
+
+.game{
+width:200px;
+border-radius:30px;
+background-color: blue;
+display: flex;
+flex-direction:column;
+align-items: center;
+margin-top:32px; 
+text-align: center;
+}
+
+
+.game-text{
+color: white;
+font-weight: bold;
+font-size: 18px;
+font-family: verdana;
+margin-top: 8px;
+margin-bottom: 10px;
+}
+
+
+
+
+.interests {
+	display: flex;	
+	width: 650px;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+
+.interesting-text {
+	color:black;
+	height: 50px;
+	width: 200px;
+	border-radius: 53px;
+	font-family: Verdana; 
+	font-size: 24px;
+	margin-top:20px;
+	cursor: pointer;
+	transition: 0.5s 
+}
+
+.interesting-text:hover {
+ background: turquoise;
+ width: 400px;
+}
+
+.interesting-img {
+width: 550px;
+height: 300px;
+background-image: url('ad1.jpg');
+background-size: cover;
+border-radius: 30px;
+ margin-top:20px;
+animation: slide 15s infinite ;
+}
+
+
+@keyframes slide {
+	12.5%{
+		background-image: url('ad1.jpg');
+	}
+	25%{
+		background-image: url('ad2.jpg');
+	}
+	37.5%{
+		background-image: url('ad3.jpg');
+	}
+	50%{
+		background-image: url('ad4.jpg');
+	}
+	62.5%{
+		background-image: url('ad5.jpg');
+	}
+	75%{
+		background-image: url('ad6.jpg');
+	}
+	87.5%{
+		background-image: url('ad7.jpg');
+	}
+	100%{
+		background-image: url('ad8.jpg');
+	}
+}
+
+
+.slider{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+
+.normal-font{
+
+	font-weight: normal;
+	width: 90%;
+}
+
+@media screen and (max-width:800px){
+
+ .avatar{
+ 	margin-top: -85px;
+	}
+
+	.interests {
+		width: 50vw;
+	}
+
+}

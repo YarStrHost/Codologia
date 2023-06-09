@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>портфолио</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="icon" href="images/avatar.png" type="image/png">
+     <link rel="icon" href="images/avatar.png" type="images.png">
+     <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+</head>
+
+<body>
+     <div class="main-info">
+          <img class="avatar" src="images/avatar.png">
+          <h1 class="nickname">Заяц Боевой Ушастый</h1>
+          <p class="contacts">ds:stendow228#8638</p>
+     </div>
+
+     <div class="description">
+          <img class="icon" src="images/info.svg"> 
+          <h2 class="about-me">О себе</h2>
+          <p class="about-me-text">начинаюший веб-программист. 0 лет<br>
+          владею навыками сайтов на html и css,<br>
+          имею опыт написания на scratch, pencil code и др.<br>
+          имею лицензию на 2b2t.</p>    
+     </div>
+
+     <div class="description">
+          <img class="icon" src="images/star.svg"> 
+          <h2 class="about-me">Достижения</h2>
+          <p class="about-me-text">1.вынез 2 незерак в алмазке
+               <br> 2.выбил легу в бс <br>3.нашел лд
+          </p>    
+     </div>
+
+     <div class="interests"> 
+          <div class="game">
+               <img class="game-img" src="images/Minecraft.jpg">
+               <p class="game-text">Minecraft</p>
+               <p id="info" class="game-text normal-font">Сервер, где тебе интересно играть - много
+карт и скинов для скачивания
+</p>
+          </div>
+     
+          <div class="game">
+               <img class="game-img" src="images/Atomic%20Heart.png">
+               <p class="game-text">Atomic Heart</p>
+               <p id="info" class="game-text normal-font">Atomic Heart игра про СССР, где все роботы сошли с ума и начали атаковать людей
+</p>
+          </div>
+
+          <div class="game">
+               <img class="game-img" src="images/Roblox.jpg">
+               <p class="game-text">Roblox</p>
+               <p id="info" class="game-text normal-font">Очень интересная игра, там много игр, где можешь найти друзей</p>
+          </div>
+          <div class="game">
+               <img class="game-img" src="images/stendow228.jpg">
+               <p class="game-text">stendow2</p>
+               <p id="info" class="game-text normal-font">Шутер для тех у кого железо не тянет csgo. Там много
+донатеров
+и скинов</p>  
+          </div>
+
+         <div class="game">
+               <img class="game-img" src="images/Horizon%20Zero%20Dawn.jpg">
+               <p class="game-text">Horizon Zero Dawn</p>
+               <p id="info" class="game-text normal-font">Интересный геймплей, много выборов, доп. заданий
+и роботов</p>
+         </div>
+
+         <div class="game">
+               <img class="game-img" src="images/csgo.png">
+               <p  class="game-text">csgo</p>
+               <p id="info" class="game-text normal-font">Для тех, у кого есть микрофон и железо норм
+</p>
+         </div>      
+     </div>
+
+     <div class="slider">
+          <button onclick="changeDisplay()" class="interesting-text">Интересное</button>
+          <div id="box" style="display: none;" class="interesting-img"></div>
+     </div>
+      
+
+     </body>
+     <script>
+          function changeDisplay() {
+               box = document.getElementById("box");
+               if (box.style.display === "none")
+                    box.style.display = "block";
+               
+               else
+                    box.style.display = "none";             
+          }
+          
+
+     </script> 
+     </html>

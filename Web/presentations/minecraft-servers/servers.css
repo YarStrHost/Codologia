@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background: whitesmoke;
+    color: #000000;
+    font-family: Caveat;
+    font-size: 12px;
+}
+
+.container {
+    background: whitesmoke;
+    margin: 0px auto;
+    width: 900px;
+    height: 1000px;
+}
+ 
+.header {
+    height: 300px;
+    width: 900px;
+    background: whitesmoke;
+    text-align: center;
+}
+ 
+.navigation {
+    background: whitesmoke;
+    width: 900px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    font-size: 25px;
+    background: whitesmoke;
+    float: left;
+    width: 300px;
+    height: 600px;
+    line-height: 30px;
+    
+
+}
+
+.content {
+    background: whitesmoke;
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin-left: 200px;
+    
+}
+ 
+.clear {
+    clear:both;
+    background: whitesmoke;
+}
+ 
+
+.footer {
+    background: whitesmoke;
+    height: 80px;
+    width: 900px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+a{     
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+h1 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.head {
+    height: 100%;
+
+}
+
+.footer-text {
+    color: black;
+}
